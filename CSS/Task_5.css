@@ -1,0 +1,55 @@
+nav{
+    display: flex;
+    background-color: rgb(16, 217, 187);
+    color: darkblue;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.icon{
+    color: bl;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+h1{
+    background-color: red;
+    width: 60px;
+    height: 30px;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    background-color: red;
+    text-decoration: none;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+figure{
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    padding: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+footer{
+    background-color: rgb(16, 217, 187) ;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
