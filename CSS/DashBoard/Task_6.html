@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/16683/16683419.png">
+    <link rel="stylesheet" href="Task_6.css">
+    <title>Dash Board</title>
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fa-brands fa-slack"></i>
+                    <span class="logo-text">DashPro</span>
+                </div>
+            </div>
+                <nav class="sidebar-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">
+                                <i class="fa-solid fa-chart-line"></i>
+                                <span>Dashboard</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa-solid fa-chart-pie"></i>
+                                <span>Analytics</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa-solid fa-user"></i>
+                                <span>Users</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa-solid fa-diagram-project"></i>
+                                <span>Projects</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">
+                                <i class="fa-solid fa-gear"></i>
+                                <span>Settings</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            
+        </aside>
+        
+        <main class="main-content">
+            <header class="header">
+                <div class="header-left">
+                    <h1 class="page-title">Dashboard Overview</h1>
+                    <p class="page-subtitle">Welcome back! Here's what's happening today.</p>
+                </div>
+                <div class="header-right">
+                    <div class="search-box">
+                        <input type="search" placeholder="Search..." class="search-input">
+                        <i class="search-icon fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="header-actions">
+                        <button class="notification-btn">
+                            <i class="bell-icon fa-solid fa-bell"></i>
+                            <span class="notification-badge">3</span>
+                        </button>
+
+                        <div class="user-profile">
+                            <img src="1.jpg" alt="user" class="profile-img">
+
+                            <div class="profile-info">
+                                <span class="profile-name">John Doe</span>
+                                <span class="profile-role">Administrator</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <section class="middle">
+                <div class="box">
+                    <div class="icon-box1">
+                        <i class="icons fa-solid fa-dollar-sign"></i>
+                    </div>
+                    
+                    <div class="total">
+                        <span class="price">$45,231</span>
+                        <span class="title2">Total Revenue</span>
+                        <div class="percentage">
+                            <i class="trangle-up fa-solid fa-caret-up"></i>
+                            <span class="num">+12.5%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon-box2">
+                        <i class="icons fa-solid fa-user"></i>
+                    </div>
+                    
+                    <div class="total">
+                        <span class="price">2,431</span>
+                        <span class="title2">Active Users</span>
+                        <div class="percentage">
+                            <i class="trangle-up fa-solid fa-caret-up"></i>
+                            <span class="num">+8.2%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon-box3">
+                        <i class="icons fa-solid fa-border-all"></i>
+                    </div>
+                    
+                    <div class="total">
+                        <span class="price">1,247</span>
+                        <span class="title2">Total Orders</span>
+                        <div class="percentage">
+                            <i class="trangle-up fa-solid fa-sort-down"></i>
+                            <span class="num">-3.1%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon-box4">
+                        <i class="icons fa-solid fa-percent"></i>
+                    </div>
+                    
+                    <div class="total">
+                        <span class="price">78.4%</span>
+                        <span class="title2">Conversion Rate</span>
+                        <div class="percentage">
+                            <i class="trangle-up fa-solid fa-caret-up"></i>
+                            <span class="num">+5.7%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="final">
+                <div class="data-left">
+                        <div class="box-bar-left">
+                            <span class="bar-title-left">Recent Activity</span>
+                            <a href="#" class="link-bar-left">View All</a>
+                        </div>
+                        <div class="users-bar">
+                            <div class="user-activity">
+                                    <img class="img-user" src="2.jpg" alt="user">
+                                <div class="all-data">
+                                    <div class="data">
+                                        <span class="user-name">Sarah Johnson</span>
+                                        <span class="activity">completed project review</span>
+                                    </div>
+                                    <span class="ago">2 minutes ago</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="users-bar">
+                            <div class="user-activity">
+                                    <img class="img-user" src="5.jpg" alt="user">
+                                <div class="all-data">
+                                    <div class="data">
+                                        <span class="user-name">Mike Chen</span>
+                                        <span class="activity">uploaded new documents</span>
+                                    </div>
+                                    <span class="ago">15 minutes ago</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="users-bar">
+                            <div class="user-activity">
+                                    <img class="img-user" src="4.jpg" alt="user">
+                                <div class="all-data">
+                                    <div class="data">
+                                        <span class="user-name">Emma Wilson</span>
+                                        <span class="activity">created new task</span>
+                                    </div>
+                                    <span class="ago">1 hour ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="users-bar">
+                            <div class="user-activity">
+                                    <img class="img-user" src="1.jpg" alt="user">
+                                <div class="all-data">
+                                    <div class="data">
+                                        <span class="user-name">John Doe</span>
+                                        <span class="activity">approved budget request</span>
+                                    </div>
+                                    <span class="ago">3 hours ago</span>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+
+                <div class="data-right">
+                    <div class="box-right">
+                        <div class="box-bar-right">
+                            <span class="bar-title-right">Project Progress</span>
+                            <a href="#" class="link-bar-right">Manage</a>
+                        </div>
+
+                        <div class="tracks">
+                            <div class="project-progress">
+                                <div class="all-data">
+                                    <span class="track-name">Website Redesign</span>
+                                    <span class="date">Due: Dec 15, 2024</span>
+                                </div>
+                                <div class="tape">
+                                    <div class="fill fill-75">
+                                        <span class="num2">75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tracks">
+                            <div class="project-progress">
+                                <div class="all-data">
+                                    <span class="track-name">Mobile App Development</span>
+                                    <span class="date">Due: Jan 20, 2025</span>
+                                </div>
+                                <div class="tape">
+                                    <div class="fill fill-45">
+                                        <span class="num2">45%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="tracks">
+                            <div class="project-progress">
+                                <div class="all-data">
+                                    <span class="track-name">Database Migration</span>
+                                    <span class="date">Due: Dec 30, 2024</span>
+                                </div>
+                                <div class="tape">
+                                    <div class="fill fill-90">
+                                        <span class="num2">90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
