@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/16683/16683419.png">
+    <title>Professional Registration Form</title>
+    <link rel="stylesheet" href="Task_9.css" />
+  </head>
+  <body>
+    <div class="container">
+        <form>
+            <header>
+                <h1>Professional Registration Form</h1>
+                <p>Join our community of professionals and unlock exclusive opportunities</p>
+            </header>
+
+            <section class="personal">
+                    <h3>Personal Information</h3>
+                    
+                    <div class="box1">
+                    <div class="full_name">
+                        <label for="full_name">Full Name <span>*</span></label>
+                        <input type="text" id="full_name" placeholder="Enter your full name" name="full name" required>
+                    </div>
+                
+                    <div class="email">
+                        <label for="email">Email Address <span>*</span></label>
+                        <input type="email" id="email" placeholder="example@email.com" name="email" required>
+                    </div>
+                </div>
+                    <div class="phone">
+                        <label for="phone">Phone Number <span>*</span></label>
+                        <input type="tel" id="phone" placeholder="+1 (555) 123-4567" name="phone" required>
+                    </div>
+            </section>
+            
+            <section class="Security">
+                    <h3>Security Information</h3>
+                    
+                    <div class="box1">
+                    <div class="password">
+                        <label for="password">Password <span>*</span></label>
+                        <input type="password" id="password" placeholder="Create a strong password" name="password" required>
+                    </div>
+                
+                    <div class="confim_password">
+                        <label for="confim_password">Confirm Password <span>*</span></label>
+                        <input type="password" id="confim_password" placeholder="Re-enter your password" name="comfirm password" required>
+                    </div>
+                </div>
+                    
+            </section>
+            
+            <section class="Preferences">
+                <h3>Demographics & Preferences</h3>
+            
+                <div class="form-group">
+                   <h4>Gender <span>*</span></h4>
+                   <div class="radio-group">
+                       <div class="radio-item">
+                           <input type="radio" id="male" name="gender">
+                           <label for="male">Male</label>
+                       </div>
+                       <div class="radio-item">
+                           <input type="radio" id="female" name="gender">
+                           <label for="female">Female</label>
+                       </div>
+                   </div>
+                </div>
+        
+                   <div class="nationality">
+                       <label for="nationality">Nationality <span>*</span></label>
+                       <select id="nationality" name="nationality" required>
+                           <option value="">Select your nationality</option>
+                           <option value="us">United States</option>
+                           <option value="uk">United Kingdom</option>
+                           <option value="ca">Canada</option>
+                           <option value="au">Australia</option>
+                           <option value="de">Germany</option>
+                       </select>
+                   </div>
+
+                <label for="nationality">Areas of Interest <span>*</span></label>
+                    <div class="checkbox-grid">
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="programming">
+                        <label for="programming">Programming & Development</label>
+                    </div>
+                    
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="ai">
+                        <label for="ai">Artificial Intelligence</label>
+                    </div>
+                    
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="ux">
+                        <label for="ux">User Experience Design</label>
+                    </div>
+                    
+                    <div class="checkbox-item">
+                        <input type="checkbox" id="cybersecurity">
+                        <label for="cybersecurity">Cybersecurity</label>
+                    </div>
+                </div>
+                    
+            </section>
+
+            <section class="information">
+                    <h3>Additional Information</h3>
+                    
+                    <div class="cv">
+                        <label for="cv">Resume/CV (PDF, DOC) <span>*</span></label>
+                        <input type="file" id="cv" name="cv" required>
+                    </div>
+                
+                    <div class="aboutyou">
+                        <label for="bio">About Yourself <span>*</span></label>
+                        <textarea id="bio" name="bio" rows="5" cols="50" placeholder="Tell us about your background, experience, and what motivates you..."></textarea>
+                    </div>
+
+                    <div class="date">
+                        <label for="date">Preferred Start Date <span>*</span></label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+            </section>
+
+            <button>Submit</button>
+        </form>
+    </div>
+  </body>
+</html>
