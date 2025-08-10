@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e0e3e8;
+    padding: 20px;
+}
+
+.box{
+    background: white;
+    max-width: 700px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid rgb(207, 200, 200);
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4361ee;
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #4361ee;
+    box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
+}
+
+button {
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    background-color: #4361ee;
+    color: white;
+    margin-top: 10px;
+}
+button:hover {
+    background-color: #3a56d4;
+}
+
+.delete {
+  background: rgb(194, 8, 8);
+  margin-right: 10px;
+}
+
+.delete:hover{
+    background-color: darkred;
+}
+
+.edit {
+    background: rgb(8, 190, 8);
+}
+
+.edit:hover{
+    background-color: darkgreen;
+}
+
+.post {
+  border: 1px solid rgb(207, 200, 200);
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
