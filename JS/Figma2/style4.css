@@ -215,3 +215,7 @@ textarea:focus {
     line-height: 21px;
     color: var(--main-black);
 }
+
+.love img{
+    cursor: pointer;
+}
